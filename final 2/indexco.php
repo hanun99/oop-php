@@ -40,7 +40,8 @@ $result = mysqli_query($conn, $sql);
              <a href="hapus.php?id=<?= $row["id"];?>" onclick="return confirm('Yakin Dihapus?')";>Hapus</a>
              </td>
     </tr>
-    <?php }?>
+    <?php
+     }?>
 </table>
 </body>
 </html>
